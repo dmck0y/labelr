@@ -27,7 +27,7 @@ export default Router.extend({
   home () {
     this.renderPage(<PublicPage/>, {layout: false});
   },
-  repos () {
+  repos () 
     this.renderPage(<RepoPage/>);
   },
   login () {
